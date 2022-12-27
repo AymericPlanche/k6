@@ -142,8 +142,8 @@ export default function() {
 }
 
 function thinktime(t) {
+	sleep(t * Math.random());
     return;
-    sleep(t * Math.random());
 }
 
 // This function loads the home page HTML
